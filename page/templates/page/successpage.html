@@ -1,0 +1,8 @@
+{% extends 'page/index.html' %}
+        
+    {% block content %}
+        <h1 id="tpost">BVN verification was successful!</h1>
+        <h2>Name: {{data_values.first_name}} {{data_values.last_name}}</h2>
+        <h2>Date of Birth: {{data_values.date_of_birth}}</h2>
+        <h2>Tel: {{data_values.phone_number}}</h2>
+    {% endblock content %}

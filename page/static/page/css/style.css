@@ -1,0 +1,28 @@
+#header {
+    background-color: rgb(16, 19, 16);
+    margin:0;
+    top:0px;
+    left:0px;
+    position:fixed;
+    padding:2% 100% 2% 2%;
+    color: rgb(158, 165, 58);
+    box-shadow: 0 9px rgb(238, 234, 234);
+  
+  }
+#tpost {
+    padding-top: 15%
+  }
+  
+  
+  #submitbtn {
+    background-color:rgb(209, 38, 47);
+    border:none;
+    color:white;
+    font-size: 30px;
+    border-radius:12px;
+    padding:15px 30px;
+  }
+  #submitbtn:hover {
+    background-color:rgb(173, 13, 18);
+  }
+  

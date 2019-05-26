@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		{% load static %}
+		<link rel="stylesheet" type="text/css" href="{% static 'page/css/style.css' %}">
+		<title>TECHERO</title>
+    </head>
+    
+	<body>
+	<h1 id="header">TecHero</h1>
+	{% block content %}
+        <center><form method='POST' id="tpost"> {% csrf_token %}
+            {{ form.as_p }}
+            <input type='submit', value='Validate BVN' id="submitbtn">
+        </form></center>
+    </body>
+    {% endblock content %}
+
+</html>
